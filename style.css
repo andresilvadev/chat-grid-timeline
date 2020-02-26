@@ -3,7 +3,7 @@ body {
     height: 100%;
     margin: 0;
     background-color: #f3f3f3;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;    
 }
 
 .chat-container {
@@ -213,6 +213,22 @@ body {
 }
 
 /* CONVERSATION LIST */
+
+.scrollbar-docato::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.scrollbar-docato::-webkit-scrollbar {
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar-docato::-webkit-scrollbar-thumb {
+	background-color: #12b2e8;
+}
+
+
 
 @media (max-width:1797px)  {
     .chat-dual-left {        
